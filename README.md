@@ -47,6 +47,22 @@ sys.path.insert(0, os.path.abspath('..'))
 extensions = ['sphinx.ext.todo', 'sphinx.ext.viewcode', 'sphinx.ext.autodoc']
 ```
 
+## Add modules to index.rst : 
+'''
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+->  modules
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+'''
+
 ## Change directory
 ```
 cd docs
