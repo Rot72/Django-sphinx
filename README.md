@@ -13,7 +13,7 @@ cd docs
 
 ## Install Sphinx
 ```
-pip install sphinx (poetry add)
+pip install sphinx
 ```
 
 ```
