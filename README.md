@@ -1,4 +1,4 @@
-# Sphinx
+# Sphinx Django
 
 ## Check the current version of Sphinx
 ```
