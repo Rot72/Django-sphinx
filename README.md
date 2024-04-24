@@ -48,7 +48,7 @@ extensions = ['sphinx.ext.todo', 'sphinx.ext.viewcode', 'sphinx.ext.autodoc']
 ```
 
 ## Add modules to index.rst : 
-'''
+```
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -61,7 +61,7 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-'''
+```
 
 ## Change directory
 ```
