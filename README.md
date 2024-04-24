@@ -32,12 +32,13 @@ cd ..
 ```
 
 ## Generate the .rst files: 
-###### Use the sphinx-apidoc -o docs command. to automatically generate .rst (reStructuredText) files for the Python modules in your project. This command will generate .rst files for all Python modules in the current directory and place these files in the docs directory.
+##### Use the sphinx-apidoc -o docs command. to automatically generate .rst (reStructuredText) files for the Python modules in your project. This command will generate .rst files for all Python modules in the current directory and place these files in the docs directory.
 ```
 sphinx-apidoc -o docs .
 ```
 
-## Add your modules to the Python path: Sphinx needs to be able to import your modules to generate documentation. You can add your project's root directory to the Python path at the beginning of your conf.py file:
+## Add your modules to the Python path: 
+##### Sphinx needs to be able to import your modules to generate documentation. You can add your project's root directory to the Python path at the beginning of your conf.py file:
 ```
 import os
 import sys
